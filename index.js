@@ -28,8 +28,8 @@ $(document).ready(() => {
 
     // Adding an event listener that displays/hides the choices under each menu option
     $('.mobile-option').on('mouseenter', event => {
-        $(event.currentTarget).find('.mobile-more-options').slideDown(300);
+        $(event.currentTarget).find('.mobile-more-options').slideDown(100);
     }).on('mouseleave', event => {
-        $(event.currentTarget).find('.mobile-more-options').slideUp(300);
+        $(event.currentTarget).find('.mobile-more-options').slideUp(100);
     })
 })
